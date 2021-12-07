@@ -51,4 +51,9 @@ public class CrudDAO {
                 "where major_name=?";
         return jdbcTemplate.update(sql,name);
     }
+
+    public void sayHello(){
+        System.out.println("hello");
+    }
+
 }
